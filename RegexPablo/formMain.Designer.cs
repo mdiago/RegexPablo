@@ -71,7 +71,7 @@ namespace RegexPablo
             this.tpLeft.Name = "tpLeft";
             this.tpLeft.RowCount = 1;
             this.tpLeft.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tpLeft.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tpLeft.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 450F));
             this.tpLeft.Size = new System.Drawing.Size(692, 450);
             this.tpLeft.TabIndex = 0;
             // 
@@ -97,6 +97,7 @@ namespace RegexPablo
             this.txRegex.Name = "txRegex";
             this.txRegex.Size = new System.Drawing.Size(680, 26);
             this.txRegex.TabIndex = 0;
+            this.txRegex.TextChanged += new System.EventHandler(this.txRegex_TextChanged);
             // 
             // rtTextInput
             // 
